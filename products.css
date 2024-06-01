@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background: #efefef;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#product-and-details-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 50%;
+    background-color: #fff;
+    margin: 20px 0px 0px 0px;
+    padding: 30px;
+}
+
+#image-container{
+    background: radial-gradient(#efefef, #fff, #efefef);
+    width: 50%;
+    height: 95%;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #efefef;
+}
+
+#image-container img{
+    width: 150px;
+}
+
+#details-container{
+    background: green;
+    width: 50%;
+    height: 95%;
+    border: 3px solid #efefef;
+    background: radial-gradient(#efefef, #fff, #efefef);
+}
+
+
+
+#text-div{
+    width: 60%;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 400px 0px 0px 0px;
+    padding: 30px;
+    border: #efefef 12px solid;
+    background: linear-gradient(#efefef, #fff);
+}
+
+#fanta-text-details{
+    text-align: justify;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #848688;
+}
+
+#other-products-title-div{
+    width: 64%;
+    height: 5%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 400px 0px 0px 0px;
+    padding: 5px;
+    border: 3px solid #efefef;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#other-products-title-div h1{
+    margin: 250px 0px 0px 0px;
+    color: #848688;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+
+#other-products-container{
+    width: 60%;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 500px 0px 0px 0px;
+    padding: 30px;
+    border: #efefef 12px solid;
+    background: #fff;
+}
+
+#other-products-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 200px;
+    background: #efefef;
+    margin: 3px;
+    padding: 3px;
+}
+
+#other-products-container img{
+
+    width: 30px;
+}
+
+#fanta-product-1{
+    width: 20px;
+}
